@@ -1,3 +1,30 @@
+/************************TAG SELECTORS**************************/
+
 body{
   background-color: #add8e6
+}
+hr  {
+  background-color: white;
+  horizontal-style: none;
+  border-style: none;
+  border-top: none;
+  height: 0px
+  width: 30%
+}
+h1,h5,h6,p {
+  text-align: center;
+}
+img {
+  height: 200px;
+}
+h1,h2,h3,h4,h5,h6{
+  color: green;
+}
+
+
+/****************************CLASS SELECTORS***************************/
+
+.img{
+  text-color: red;
+  background-color: red;
 }
