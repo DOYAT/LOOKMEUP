@@ -1,30 +1,95 @@
-/************************TAG SELECTORS**************************/
+/****************TAG SELECTORS********************/
+body
+{
+  background-color:;
+  color: ;
+}
+hr
+{
+  background-color:black;
+  width:0px;
 
-body{
-  background-color: #add8e6
 }
-hr  {
-  background-color: white;
-  horizontal-style: none;
-  border-style: none;
-  border-top: none;
-  height: 0px
-  width: 30%
+h2,h3,h4,h5,h6
+{
+  background-color:;
+  color:green;
+  text-align: justify;
 }
-h1,h5,h6,p {
+
+h1{
+  font-style: oblique;
+  color: #182747;
+}
+p{
+  color: black;
+}
+td,li{
+  color: black;
+}
+
+
+/********************CLASS SELECTORS************/
+.first-outline {
+  height: auto;
+  width: auto;
+  background-color: #E4F9F5;
+  padding: 5px;
+  border: solid 5px;
   text-align: center;
+
+
 }
-img {
+.displaypicture {
+  width: 100px;
+  background-color: #E4F9F5;
+  padding: 10px;
+  border: solid 10px;
+  position:fixed;
+  margin-top: -110px;
+  margin-left: -50px;
+
+}
+
+.second-outline {
+  background-color: #FDFDBD;
+  width: auto;
   height: 200px;
+  padding: 20px;
+  border: solid 5px;
+
 }
-h1,h2,h3,h4,h5,h6{
-  color: green;
+.third-outline{
+  background-color: #EAEAEA;
+  width: auto;
+  height: 300px;
+  padding: 20px;
+  border: solid 5px;
+
 }
 
-
-/****************************CLASS SELECTORS***************************/
-
-.img{
-  text-color: red;
-  background-color: red;
+.ade-1 {
+  text-shadow: 2px 2px 8px #000000
+}
+.ade-2
+{
+  text-shadow: 2px 2px 8px #000000;
+}
+.ade-3
+{
+  text-shadow: 2px 2px 8px #000000
+}
+.for-enquiry{
+  background-color:#EAEAEA;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  border: solid 5px;
+}
+.contact-me{
+  background-color: #EAEAEA;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  border: solid 5px;
 }
